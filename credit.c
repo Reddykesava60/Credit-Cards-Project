@@ -19,7 +19,7 @@ again:
     {
         printf("Number (13 degits to 16 digits):");
 
-        scanf("%s", &str);
+        scanf("%s", str);
 
     } while (!(sscanf(str, "%li", &num)));
 
